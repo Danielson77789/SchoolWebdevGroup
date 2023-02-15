@@ -1,6 +1,12 @@
 // variable overrides go here
 
-$primary: black;
+$light-color: (
+    "light" : #ffffff,
+    "primary" : #bee9e8,
+    "secondary" : #62b6cb,
+    "success" : #00a8e8,
+
+);
 
 // import all of bootstrap here
 
@@ -11,7 +17,7 @@ $primary: black;
 
 #intro-block {
     height: 60vh;
-    background-color: lightgrey;
+    background-color: $secondary;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -50,5 +56,5 @@ ul {
 #footer {
     padding-top: 20px;
     height: 5vh;
-    background-color: gray;
+    background-color: blue($color: #000000);
 }
