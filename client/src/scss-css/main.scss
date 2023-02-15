@@ -1,12 +1,6 @@
 // variable overrides go here
 
-$light-color: (
-    "light" : #ffffff,
-    "primary" : #bee9e8,
-    "secondary" : #62b6cb,
-    "success" : #00a8e8,
-
-);
+$primary: black;
 
 // import all of bootstrap here
 
@@ -14,47 +8,3 @@ $light-color: (
 
 // add scss code here
 
-
-#intro-block {
-    height: 60vh;
-    background-color: $secondary;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#intro-block-text{
-    width: 50vh;
-    text-align: center;
-}
-
-ul {
-    background-color: gray;
-}
-
-#sub-section-1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 80px;
-    padding-bottom: 40px;
-}
-
-#sub-section-2 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 80px;
-}
-
-#sub-1-text {
-    width: 50vh;
-}
-
-#footer {
-    padding-top: 20px;
-    height: 5vh;
-    background-color: blue($color: #000000);
-}
